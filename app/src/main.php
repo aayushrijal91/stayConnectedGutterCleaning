@@ -306,27 +306,28 @@
     </div>
 
     <div class="container">
-        <p class="text-8xl font-bold font-coolvetica leading-none py-32">Why Choose Gutter Cleaning Experts?</p>
-
+        <p class="text-5xl md:text-8xl text-center md:text-start font-bold font-coolvetica leading-none py-16 md:py-32">Why Choose Gutter Cleaning Experts?</p>
+    </div>
+    <div class="container">
         <div class="why-us-slider">
-            <div class="border border-white rounded-[37px] p-10">
+            <div class="border border-white rounded-3xl md:rounded-[37px] px-5 py-10 md:px-10">
                 <div class="flex flex-warp">
-                    <div class="w-2/12">
+                    <div class="w-3/12 md:w-2/12">
                         <svg width="54" height="55" viewBox="0 0 54 55" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M33.8011 30.5729L36.0643 40.2927L27.5163 35.1397L27 34.8284L26.4837 35.1397L17.9357 40.2927L20.1989 30.5729L20.3357 29.9857L19.8802 29.5906L12.343 23.0537L22.2851 22.205L22.8858 22.1537L23.1209 21.5985L27 12.436L30.8791 21.5985L31.1142 22.1537L31.7149 22.205L41.657 23.0537L34.1198 29.5906L33.6643 29.9857L33.8011 30.5729ZM26.9875 1.37109C12.6221 1.37109 1 13.007 1 27.3711C1 41.7352 12.6221 53.3711 26.9875 53.3711C41.3516 53.3711 53 41.7365 53 27.3711C53 13.0057 41.3516 1.37109 26.9875 1.37109Z" stroke="white" stroke-width="2" />
                         </svg>
                     </div>
 
-                    <div class="w-10/12">
-                        <p class="text-[28px] font-bold">Established Reputation</p>
-                        <p class="pt-4">Gutter Cleaning Experts has been delivering high-quality gutter cleaning services in Sydney since 1990. Our longevity speaks volumes about our commitment to excellence.</p>
+                    <div class="w-9/12 md:w-10/12">
+                        <p class="text-lg md:text-[28px] font-bold">Established Reputation</p>
+                        <p class="text-sm md:text-base pt-4">Gutter Cleaning Experts has been delivering high-quality gutter cleaning services in Sydney since 1990. Our longevity speaks volumes about our commitment to excellence.</p>
                     </div>
                 </div>
             </div>
 
-            <div class="border border-white rounded-[37px] p-10">
+            <div class="border border-white rounded-3xl md:rounded-[37px] px-5 py-10 md:px-10">
                 <div class="flex flex-warp">
-                    <div class="w-2/12">
+                    <div class="w-3/12 md:w-2/12">
                         <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M33.473 26.1606L43.0286 34.5573C44.2966 35.703 45.0575 37.3055 45.144 39.0122C45.2305 40.7189 44.6355 42.3901 43.4898 43.6582C43.4168 43.7384 43.3422 43.8186 43.2652 43.8988C42.0567 45.1073 40.4175 45.7862 38.7084 45.7862C36.9992 45.7862 35.3601 45.1073 34.1515 43.8988C34.0713 43.8186 34 43.7384 33.927 43.6582L25.7429 34.7418" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square" />
                             <path d="M22.3805 19.8058L13.8724 11.2976V8.08944L8.25801 2.4751L1.84161 8.89149L7.45596 14.5058H10.6642L18.9172 22.7589" stroke="white" stroke-width="2" stroke-miterlimit="10" />
@@ -335,24 +336,24 @@
                         </svg>
                     </div>
 
-                    <div class="w-10/12">
-                        <p class="text-[28px] font-bold">Licensed Professionals</p>
-                        <p class="pt-4">Unlike some contractors, we are fully licensed gutter cleaners who prioritise pride and workmanship. We don't just focus on the tiles' appearance but also ensure the underlying water guard is immaculately cleaned.</p>
+                    <div class="w-9/12 md:w-10/12">
+                        <p class="text-lg md:text-[28px] font-bold">Licensed Professionals</p>
+                        <p class="text-sm md:text-base pt-4">Unlike some contractors, we are fully licensed gutter cleaners who prioritise pride and workmanship. We don't just focus on the tiles' appearance but also ensure the underlying water guard is immaculately cleaned.</p>
                     </div>
                 </div>
             </div>
 
-            <div class="border border-white rounded-[37px] p-10">
+            <div class="border border-white rounded-3xl md:rounded-[37px] px-5 py-10 md:px-10">
                 <div class="flex flex-warp">
-                    <div class="w-2/12">
+                    <div class="w-3/12 md:w-2/12">
                         <svg width="54" height="55" viewBox="0 0 54 55" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M33.8011 30.5729L36.0643 40.2927L27.5163 35.1397L27 34.8284L26.4837 35.1397L17.9357 40.2927L20.1989 30.5729L20.3357 29.9857L19.8802 29.5906L12.343 23.0537L22.2851 22.205L22.8858 22.1537L23.1209 21.5985L27 12.436L30.8791 21.5985L31.1142 22.1537L31.7149 22.205L41.657 23.0537L34.1198 29.5906L33.6643 29.9857L33.8011 30.5729ZM26.9875 1.37109C12.6221 1.37109 1 13.007 1 27.3711C1 41.7352 12.6221 53.3711 26.9875 53.3711C41.3516 53.3711 53 41.7365 53 27.3711C53 13.0057 41.3516 1.37109 26.9875 1.37109Z" stroke="white" stroke-width="2" />
                         </svg>
                     </div>
 
-                    <div class="w-10/12">
-                        <p class="text-[28px] font-bold">Durable Solutions</p>
-                        <p class="pt-4">We offer durable gutter cleaning solutions to address issues such as discoloration, cracks, mould growth, unpleasant odours, or black spots on your ceiling. Our fully licensed team is equipped to handle all your roof and gutter repair needs, ensuring longevity and preventing recurring problems.</p>
+                    <div class="w-9/12 md:w-10/12">
+                        <p class="text-lg md:text-[28px] font-bold">Durable Solutions</p>
+                        <p class="text-sm md:text-base pt-4">We offer durable gutter cleaning solutions to address issues such as discoloration, cracks, mould growth, unpleasant odours, or black spots on your ceiling. Our fully licensed team is equipped to handle all your roof and gutter repair needs, ensuring longevity and preventing recurring problems.</p>
                     </div>
                 </div>
             </div>
@@ -407,15 +408,15 @@
     </div>
 </section>
 
-<section class="booking-form bg-primary pb-28">
+<section class="booking-form bg-primary pb-16 md:pb-28">
     <div class="container">
-        <div class="w-9/12 mx-auto">
+        <div class="w-full md:w-9/12 mx-auto">
             <p class="text-center text-white font-coolvetica capitalize text-[45px] md:text-[85px] leading-none font-bold">Offering the best gutter cleaning service in sydney.</p>
         </div>
 
-        <div class="flex flex-wrap justify-center gap-x-3 pt-12">
-            <div class="w-2/12">
-                <a href="tel:<?= $phone_number ?>" class="bg-white text-primary w-full h-[70px] flex justify-center items-center rounded-md text-2xl font-bold gap-x-2">
+        <div class="flex flex-wrap justify-center pt-10 md:pt-12">
+            <div class="w-1/2 md:w-2/12 px-1 md:px-2">
+                <a href="tel:<?= $phone_number ?>" class="bg-white text-primary w-full h-[50px] md:h-[70px] flex justify-center items-center rounded-md text-base md:text-2xl font-bold gap-x-2">
                     <svg width="21" height="27" viewBox="0 0 21 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M6.12643 0.0247451C4.66545 -0.0217249 4.15837 0.157151 3.13868 1.07873C1.56261 2.50314 0.791215 4.11464 0.771295 6.02457C0.763966 6.72648 0.994602 9.2764 1.15212 10.235C1.5229 12.4919 2.44928 14.7577 4.17903 17.6386C5.68936 20.1541 7.13866 21.9337 8.70608 23.1972C9.525 23.8573 11.6082 25.2833 12.3361 25.6819C12.9148 25.9989 13.1141 26.0786 13.7484 26.2469C14.1683 26.3583 14.6676 26.4533 14.9056 26.4671C16.3906 26.5528 18.4296 26.0056 19.2493 25.3013C19.6735 24.9367 20.3949 23.6666 20.5806 22.9575C20.674 22.601 20.6719 22.5854 20.4925 22.2971C20.3915 22.1347 20.0671 21.7786 19.7717 21.5057C18.7463 20.5584 17.2633 19.1104 16.9744 18.7742C16.0584 17.7087 15.6462 17.7182 14.1427 18.84C12.7835 19.8541 12.2715 20.1309 11.9225 20.0405C11.667 19.9743 11.3729 19.7425 10.7037 19.08C8.11118 16.5133 6.82717 14.3764 5.84715 10.9976C5.41294 9.50058 5.38318 9.24132 5.61106 8.9398C5.79521 8.69622 6.40955 8.33167 7.29098 7.94303C7.68685 7.76849 8.22523 7.49371 8.48735 7.33252C9.43272 6.75105 9.48808 6.54968 9.0507 5.28173C8.86275 4.73678 8.58103 3.69565 7.95422 1.22913C7.89619 1.00091 7.78501 0.692012 7.70707 0.542728L7.5654 0.271338L7.10145 0.156176C6.84622 0.0928697 6.40746 0.0337202 6.12643 0.0247451Z" fill="#009CF8" />
                     </svg>
@@ -424,22 +425,22 @@
                 </a>
             </div>
 
-            <div class="w-2/12">
-                <a href="tel:<?= $phone_number ?>" class="bg-white text-primary w-full h-[70px] flex justify-center items-center rounded-md text-2xl font-bold gap-x-2">
+            <div class="w-1/2 md:w-2/12 px-1 md:px-2">
+                <a href="tel:<?= $phone_number ?>" class="bg-white text-primary w-full h-[50px] md:h-[70px] flex justify-center items-center rounded-md text-base md:text-2xl font-bold gap-x-2">
                     Get A Quote
                 </a>
             </div>
         </div>
 
         <div class="flex flex-wrap mt-16 shadow-lg">
-            <div class="w-1/2">
+            <div class="w-1/2 hidden md:block">
                 <?= renderImg('form.jpg', 'lib', 'h-full w-full object-cover') ?>
             </div>
 
-            <div class="w-1/2 bg-white">
-                <div class="p-10">
-                    <p class="font-coolvetica font-bold text-7xl text-center">Book Now & Save</p>
-                    <p class="font-coolvetica font-bold text-2xl text-center py-4">Simply fill in the form below &amp; we'll get back to you ASAP</p>
+            <div class="w-full md:w-1/2 bg-white">
+                <div class="py-10 px-3 md:p-10">
+                    <p class="font-coolvetica font-bold text-5xl md:text-7xl text-center">Book Now & Save</p>
+                    <p class="font-coolvetica font-bold text-base md:text-2xl text-center py-4">Simply fill in the form below &amp; we'll get back to you ASAP</p>
 
                     <form action="" method="POST" class="flex flex-wrap gap-y-3 mt-4">
                         <div class="w-full">
@@ -469,7 +470,7 @@
                         </div>
 
                         <div class="w-full pt-6">
-                            <div class="flex flex-wrap justify-between items-center">
+                            <div class="flex flex-wrap justify-center md:justify-between items-center gap-y-5">
                                 <div class="w-fit flex gap-x-3 items-center">
                                     <svg width="23" height="28" viewBox="0 0 23 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M13.5536 9.88373C13.5536 9.32427 13.3372 8.78772 12.9521 8.39213C12.567 7.99653 12.0446 7.77428 11.5 7.77428C10.9554 7.77428 10.433 7.99653 10.0479 8.39213C9.66279 8.78772 9.44643 9.32427 9.44643 9.88373V12.4151H13.5536V9.88373Z" fill="#A0A0AB" />
@@ -489,6 +490,10 @@
                         </div>
                     </form>
                 </div>
+            </div>
+
+            <div class="w-full md:hidden">
+                <?= renderImg('offer-sm.jpg', 'lib', 'w-full h-full object-cover rounded-b-[20px]') ?>
             </div>
         </div>
     </div>

@@ -53,7 +53,6 @@ $('.about-slider').slick({
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 centerMode: true,
-                // autoplay: true,
                 centerPadding: "20px"
             }
         }
@@ -82,6 +81,18 @@ $('.why-us-slider').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
     arrows: false,
+    responsive: [
+        {
+            breakpoint: 540,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                centerMode: true,
+                centerPadding: "15px"
+            }
+        }
+    ]
 });
 
 $('.testimonials-slider').slick({
@@ -91,4 +102,16 @@ $('.testimonials-slider').slick({
     centerMode: true,
     centerPadding: "400px",
     autoplay: true,
+    responsive: [
+        {
+            breakpoint: 540,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                centerMode: true,
+                centerPadding: "15px"
+            }
+        }
+    ]
 });
