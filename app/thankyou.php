@@ -10,7 +10,7 @@
     });
 </script>
 
-<div class="thankyou-wrapper text-white text-center py-3" style="background-color: green;">
+<div class="fixed w-full bg-[green] thankyou-wrapper text-white text-center py-3 z-[100000]">
     Thank you! Your message has been sent. We will contact you shortly.
 </div>
 

@@ -2,10 +2,10 @@
 include __DIR__ . '/env.php';
 
 $site = "Stay Connected Gutter Cleaning";
-$phone_number = "1300 000 000";
-$admin_email = 'arijal@aiims.com.au';
+$phone_number = "0485 869 454";
+$admin_email = 'arijal@aiims.com.au'; //"info@stayconnectedplumbing.com.au";
 $bcc_email = "";
-$no_reply_email = 'info@website.com.au';
+$no_reply_email = "info@stayconnectedplumbing.com.au";
 $recaptcha_client_secret = $client_secret;
 $recaptcha_server_secret = $server_secret;
 

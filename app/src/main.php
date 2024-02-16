@@ -91,7 +91,7 @@
     <div class="container">
         <div class="flex flex-wrap justify-center items-center bg-white rounded-[40px] md:rounded-[65px] overflow-hidden shadow-xl gap-y-10">
             <div class="w-full xl:w-8/12">
-                <form action="./src/form" method="POST" class="px-5 md:p-6 lg:p-16 xl:p-12 2xl:p-16">
+                <form action="./src/form.php" method="POST" class="px-5 md:p-6 lg:p-16 xl:p-12 2xl:p-16">
                     <input type="hidden" name="token" id="recaptchaResponse1" class="recaptchaResponse" />
                     <input type="hidden" name="formType" value="banner_form" />
                     <p class="font-articulat-heavy text-5xl md:text-6xl xl:text-7xl text-dark">Get a Free Quote</p>
@@ -448,7 +448,7 @@
                     <p class="font-coolvetica font-bold text-5xl md:text-7xl text-center">Book Now & Save</p>
                     <p class="font-coolvetica font-bold text-base md:text-2xl text-center py-4">Simply fill in the form below &amp; we'll get back to you ASAP</p>
 
-                    <form action="./src/form" method="POST" class="flex flex-wrap gap-y-3 mt-4">
+                    <form action="./src/form.php" method="POST" class="flex flex-wrap gap-y-3 mt-4">
                         <input type="hidden" name="token" id="recaptchaResponse2" class="recaptchaResponse" />
                         <input type="hidden" name="formType" value="book_now_form" />
 
