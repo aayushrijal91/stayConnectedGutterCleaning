@@ -24,16 +24,58 @@ $('#return-to-top').on('click', () => {
     }, 500);
 });
 
+$('.rating-slider').slick({
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    arrows: false,
+    responsive: [
+        {
+            breakpoint: 540,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerMode: true,
+                autoplay: true,
+                centerPadding: "50px"
+            }
+        }
+    ]
+});
+
 $('.about-slider').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
     arrows: false,
+    responsive: [
+        {
+            breakpoint: 540,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerMode: true,
+                // autoplay: true,
+                centerPadding: "20px"
+            }
+        }
+    ]
 });
 
 $('.what-we-do-slider').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
     arrows: false,
+    responsive: [
+        {
+            breakpoint: 540,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                centerMode: true,
+                centerPadding: "20px"
+            }
+        }
+    ]
 });
 
 $('.why-us-slider').slick({
@@ -44,9 +86,9 @@ $('.why-us-slider').slick({
 
 $('.testimonials-slider').slick({
     slidesToShow: 2,
-    slidesToScroll:1,
+    slidesToScroll: 1,
     arrows: false,
     centerMode: true,
     centerPadding: "400px",
     autoplay: true,
-})
+});

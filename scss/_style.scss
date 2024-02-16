@@ -23,6 +23,20 @@ section.form {
     }
 }
 
+section.ratings {
+    .rating-slider {
+        .slick-track {
+            display: flex;
+        }
+
+        .slick-slide {
+            display: flex;
+            height: inherit;
+            justify-content: center;
+        }
+    }
+}
+
 section.about {
     .about-slider {
         .slick-track {
@@ -32,8 +46,6 @@ section.about {
         .slick-slide {
             height: inherit;
             margin: 0 6px 40px;
-
-            .about-card {}
         }
     }
 }
@@ -52,6 +64,10 @@ section.about {
             height: 100%;
             width: 100%;
             object-fit: cover;
+        }
+
+        @media screen and (max-width: 540px) {
+            height: 511px;
         }
     }
 }
