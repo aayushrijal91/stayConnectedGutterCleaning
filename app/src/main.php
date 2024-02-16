@@ -402,9 +402,9 @@
                         <path d="M203.78 10.0405L206.197 17.4789H214.018L207.691 22.0761L210.107 29.5145L203.78 24.9173L197.452 29.5145L199.869 22.0761L193.542 17.4789H201.363L203.78 10.0405Z" fill="white" />
                     </svg>
 
-                    <p class="text-2xl font-bold pt-8 pb-3.5"><?= $testimonial['name'] ?></p>
+                    <p class="text-base md:text-2xl font-bold pt-8 pb-3.5"><?= $testimonial['name'] ?></p>
 
-                    <p class="font-medium leading-relaxed text-lg">
+                    <p class="font-medium leading-relaxed text-sm md:text-lg">
                         <?= $testimonial['comment'] ?>
                     </p>
                 </div>
