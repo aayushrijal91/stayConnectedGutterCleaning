@@ -33,6 +33,7 @@ section.ratings {
             display: flex;
             height: inherit;
             justify-content: center;
+            margin: 0 10px;
         }
     }
 }
@@ -100,11 +101,12 @@ section.about {
 
 section.testimonials {
     background: linear-gradient(#ffffff 0 50%, #009CF8 50% 100%);
+    overflow: hidden;
 
     .testimonials-slider {
-        .slick-track {
-            display: flex;
-        }
+        // .slick-track {
+        //     display: flex;
+        // }
 
         .slick-slide {
             margin: 0 10px;
@@ -126,7 +128,7 @@ section.booking-form {
             padding: 6px 16px;
             font-size: 18px;
             outline: none;
-            
+
             @media screen and (max-width: 540px) {
                 height: 50px;
             }

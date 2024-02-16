@@ -1,4 +1,4 @@
-<header class="py-5 bg-primary md:fixed w-full top-0 z-50">
+<header class="py-5 bg-primary lg:fixed w-full top-0 z-50">
     <div class="container relative">
         <div class="flex flex-wrap justify-center md:justify-end items-center gap-x-20">
             <div class="w-fit order-3 md:order-1 text-center hidden md:block">
@@ -35,14 +35,14 @@
 </div>
 
 <section class="banner relative">
-    <?= renderImg('banner.png', 'lib', 'absolute right-0 top-0 z-0 hidden md:block') ?>
+    <?= renderImg('banner.png', 'lib', 'absolute right-0 top-0 z-0 hidden lg:block') ?>
 
-    <div class="container relative pt-5 md:pt-60">
-        <div class="w-full md:w-7/12 bg-white pt-7 pb-5">
-            <p class="text-5xl md:text-8xl text-dark text-center md:text-start font-bold leading-none md:leading-[4.5rem] capitalize"><span class="text-primary font-bold">Premier Choice</span> For Top-Notch Roof And Gutter Services</p>
+    <div class="container relative pt-5 md:pt-20 lg:pt-60">
+        <div class="w-full lg:w-7/12 xl:bg-white pt-7 pb-5">
+            <p class="text-5xl lg:text-8xl text-dark text-center md:text-start font-bold leading-none xl:leading-[4.5rem] capitalize"><span class="text-primary font-bold">Premier Choice</span> For Top-Notch Roof And Gutter Services</p>
         </div>
 
-        <div class="w-full md:w-5/12 bg-white capitalize">
+        <div class="w-full xl:w-5/12 xl:bg-white capitalize">
             <p class="text-base md:text-xl text-center md:text-start text-dark">Gutter Cleaning Experts are your premier choice for top-notch roof and gutter services in sydney.</p>
         </div>
 
@@ -73,7 +73,7 @@
             </div>
         </div>
 
-        <div class="w-full md:w-7/12 bg-primary flex flex-wrap text-white pt-10 md:pt-12 pb-7 px-11 md:px-16 rounded-tl-[40px] md:rounded-tl-[70px] rounded-br-[90px] md:rounded-br-[150px] gap-y-5 mt-7">
+        <div class="w-full xl:w-7/12 bg-primary flex flex-wrap text-white pt-10 md:pt-12 pb-7 px-11 md:px-16 rounded-tl-[40px] md:rounded-tl-[70px] rounded-br-[90px] md:rounded-br-[150px] gap-y-5 mt-7">
             <div class="w-full md:w-1/2">
                 <p class="text-xl md:text-3xl leading-none">Starting From<br /> Only</p>
                 <p class="text-7xl md:text-[103px] font-articulat-heavy leading-none pt-3">$500</p>
@@ -89,12 +89,12 @@
 
 <section class="form relative mt-20" id="form">
     <div class="container">
-        <div class="flex flex-wrap items-center bg-white rounded-[40px] md:rounded-[65px] overflow-hidden shadow-xl gap-y-10">
-            <div class="w-full md:w-8/12">
-                <form action="" class="px-5 md:p-16">
-                    <p class="font-articulat-heavy text-5xl md:text-7xl text-dark">Get a Free Quote</p>
+        <div class="flex flex-wrap justify-center items-center bg-white rounded-[40px] md:rounded-[65px] overflow-hidden shadow-xl gap-y-10">
+            <div class="w-full xl:w-8/12">
+                <form action="" class="px-5 md:p-6 lg:p-16">
+                    <p class="font-articulat-heavy text-5xl md:text-6xl xl:text-7xl text-dark">Get a Free Quote</p>
 
-                    <p class="text-grey font-bold text-base md:text-xl pt-3">Simply fill in the form below and we'll get back to you as soon as possible</p>
+                    <p class="text-grey font-bold text-base md:text-lg lg:text-xl pt-3">Simply fill in the form below and we'll get back to you as soon as possible</p>
 
                     <div class="flex flex-wrap mt-10 gap-y-4 md:gap-y-7">
                         <div class="w-full md:w-1/2 px-1.5">
@@ -129,7 +129,7 @@
                 </form>
             </div>
 
-            <div class="w-full md:w-4/12"><?= renderImg('at-your-door.jpg', 'lib', 'rounded-b-[40px] md:rounded-b-[65px]') ?></div>
+            <div class="w-full md:w-fit lg:w-4/12"><?= renderImg('at-your-door.jpg', 'lib', 'rounded-b-[40px] md:rounded-b-[65px]') ?></div>
         </div>
     </div>
 </section>
@@ -160,12 +160,12 @@
     </div>
 </section>
 
-<section class="bg-primary py-16 md:py-40">
+<section class="bg-primary py-16 md:py-20 lg:py-40">
     <div class="container">
-        <p class="text-white text-4xl md:text-8xl text-center leading-none capitalize font-articulat-heavy">Offering The best gutter cleaning service In sydney.</p>
+        <p class="text-white text-4xl md:text-6xl lg:text-8xl text-center leading-none capitalize font-articulat-heavy">Offering The best gutter cleaning service In sydney.</p>
 
         <div class="flex flex-wrap justify-center pt-12">
-            <div class="w-1/2 md:w-2/12 px-1 md:px-2">
+            <div class="w-1/2 md:w-4/12 lg:w-2/12 px-1 lg:px-2">
                 <a href="tel:<?= $phone_number ?>" class="bg-white text-primary w-full h-[50px] md:h-[70px] flex justify-center items-center rounded-md md:text-2xl font-bold gap-x-2">
                     <svg width="21" height="27" viewBox="0 0 21 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M6.12643 0.0247451C4.66545 -0.0217249 4.15837 0.157151 3.13868 1.07873C1.56261 2.50314 0.791215 4.11464 0.771295 6.02457C0.763966 6.72648 0.994602 9.2764 1.15212 10.235C1.5229 12.4919 2.44928 14.7577 4.17903 17.6386C5.68936 20.1541 7.13866 21.9337 8.70608 23.1972C9.525 23.8573 11.6082 25.2833 12.3361 25.6819C12.9148 25.9989 13.1141 26.0786 13.7484 26.2469C14.1683 26.3583 14.6676 26.4533 14.9056 26.4671C16.3906 26.5528 18.4296 26.0056 19.2493 25.3013C19.6735 24.9367 20.3949 23.6666 20.5806 22.9575C20.674 22.601 20.6719 22.5854 20.4925 22.2971C20.3915 22.1347 20.0671 21.7786 19.7717 21.5057C18.7463 20.5584 17.2633 19.1104 16.9744 18.7742C16.0584 17.7087 15.6462 17.7182 14.1427 18.84C12.7835 19.8541 12.2715 20.1309 11.9225 20.0405C11.667 19.9743 11.3729 19.7425 10.7037 19.08C8.11118 16.5133 6.82717 14.3764 5.84715 10.9976C5.41294 9.50058 5.38318 9.24132 5.61106 8.9398C5.79521 8.69622 6.40955 8.33167 7.29098 7.94303C7.68685 7.76849 8.22523 7.49371 8.48735 7.33252C9.43272 6.75105 9.48808 6.54968 9.0507 5.28173C8.86275 4.73678 8.58103 3.69565 7.95422 1.22913C7.89619 1.00091 7.78501 0.692012 7.70707 0.542728L7.5654 0.271338L7.10145 0.156176C6.84622 0.0928697 6.40746 0.0337202 6.12643 0.0247451Z" fill="#009CF8" />
@@ -175,7 +175,7 @@
                 </a>
             </div>
 
-            <div class="w-1/2 md:w-2/12 px-1 md:px-2">
+            <div class="w-1/2 md:w-4/12 lg:w-2/12 px-1 lg:px-2">
                 <a href="tel:<?= $phone_number ?>" class="bg-white text-primary w-full h-[50px] md:h-[70px] flex justify-center items-center rounded-md md:text-2xl font-bold gap-x-2">
                     Get A Quote
                 </a>
@@ -191,7 +191,7 @@
                 <div class="relative flex justify-center h-full w-full">
                     <div class="about-card bg-primary rounded-[30px] h-full w-full text-center text-white">
                         <div class="image h-[310px] relative rounded-t-[30px] overflow-hidden">
-                            <?= renderImg('about-1.png', 'lib', 'h-full max-w-full object-cover') ?>
+                            <?= renderImg('about-1.png', 'lib', 'h-full w-full object-cover') ?>
                         </div>
 
                         <div class="px-6 pb-12">
@@ -247,12 +247,12 @@
     </div>
 </section>
 
-<section class="bg-primary text-white py-12 md:py-28">
+<section class="bg-primary text-white py-12 md:py-20 lg:py-28">
     <div class="flex flex-wrap items-center gap-y-10">
-        <div class="w-full md:w-5/12 flex justify-end">
-            <div class="w-full md:w-10/12 px-3 md:px-20">
+        <div class="w-full lg:w-5/12 flex justify-end">
+            <div class="w-full lg:w-10/12 px-3 md:px-5 lg:px-20">
                 <article class="text-center md:text-start">
-                    <p class="capitalize font-coolvetica font-bold text-6xl md:text-8xl">What We Do</p>
+                    <p class="capitalize font-coolvetica font-bold text-6xl lg:text-8xl">What We Do</p>
 
                     <p class="text-xs md:text-lg leading-loose pt-8 md:pt-10">Gutter Cleaning Experts are your premier choice for top-notch roof and gutter services in Sydney. We pride ourselves on delivering exceptional workmanship and attention to detail that sets us apart in the industry.</p>
                     <p class="text-xs md:text-lg leading-loose pt-5">With years of experience, our Melbourne-based company has earned a reputation for excellence and satisfied customers.</p>
@@ -278,7 +278,7 @@
             </div>
         </div>
 
-        <div class="w-full md:w-7/12">
+        <div class="w-full lg:w-7/12">
             <div class="what-we-do-slider">
                 <div>
                     <?= renderImg('gutter-cleaning.jpg', 'lib') ?>
@@ -311,9 +311,8 @@
     </div>
 
     <div class="container">
-        <p class="text-5xl md:text-8xl text-center md:text-start font-bold font-coolvetica leading-none py-16 md:py-32">Why Choose Gutter Cleaning Experts?</p>
-    </div>
-    <div class="container">
+        <p class="text-5xl md:text-6xl lg:text-8xl text-center md:text-start font-bold font-coolvetica leading-none py-16 md:py-32">Why Choose Gutter Cleaning Experts?</p>
+
         <div class="why-us-slider">
             <div class="border border-white rounded-3xl md:rounded-[37px] px-5 py-10 md:px-10">
                 <div class="flex flex-warp">
@@ -415,12 +414,12 @@
 
 <section class="booking-form bg-primary pb-16 md:pb-28">
     <div class="container">
-        <div class="w-full md:w-9/12 mx-auto">
-            <p class="text-center text-white font-coolvetica capitalize text-[45px] md:text-[85px] leading-none font-bold">Offering the best gutter cleaning service in sydney.</p>
+        <div class="w-full lg:w-9/12 mx-auto">
+            <p class="text-center text-white font-coolvetica capitalize text-[45px] md:text-6xl lg:text-[85px] leading-none font-bold">Offering the best gutter cleaning service in sydney.</p>
         </div>
 
         <div class="flex flex-wrap justify-center pt-10 md:pt-12">
-            <div class="w-1/2 md:w-2/12 px-1 md:px-2">
+            <div class="w-1/2 md:w-5/12 lg:w-2/12 px-1 md:px-2">
                 <a href="tel:<?= $phone_number ?>" class="bg-white text-primary w-full h-[50px] md:h-[70px] flex justify-center items-center rounded-md text-base md:text-2xl font-bold gap-x-2">
                     <svg width="21" height="27" viewBox="0 0 21 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M6.12643 0.0247451C4.66545 -0.0217249 4.15837 0.157151 3.13868 1.07873C1.56261 2.50314 0.791215 4.11464 0.771295 6.02457C0.763966 6.72648 0.994602 9.2764 1.15212 10.235C1.5229 12.4919 2.44928 14.7577 4.17903 17.6386C5.68936 20.1541 7.13866 21.9337 8.70608 23.1972C9.525 23.8573 11.6082 25.2833 12.3361 25.6819C12.9148 25.9989 13.1141 26.0786 13.7484 26.2469C14.1683 26.3583 14.6676 26.4533 14.9056 26.4671C16.3906 26.5528 18.4296 26.0056 19.2493 25.3013C19.6735 24.9367 20.3949 23.6666 20.5806 22.9575C20.674 22.601 20.6719 22.5854 20.4925 22.2971C20.3915 22.1347 20.0671 21.7786 19.7717 21.5057C18.7463 20.5584 17.2633 19.1104 16.9744 18.7742C16.0584 17.7087 15.6462 17.7182 14.1427 18.84C12.7835 19.8541 12.2715 20.1309 11.9225 20.0405C11.667 19.9743 11.3729 19.7425 10.7037 19.08C8.11118 16.5133 6.82717 14.3764 5.84715 10.9976C5.41294 9.50058 5.38318 9.24132 5.61106 8.9398C5.79521 8.69622 6.40955 8.33167 7.29098 7.94303C7.68685 7.76849 8.22523 7.49371 8.48735 7.33252C9.43272 6.75105 9.48808 6.54968 9.0507 5.28173C8.86275 4.73678 8.58103 3.69565 7.95422 1.22913C7.89619 1.00091 7.78501 0.692012 7.70707 0.542728L7.5654 0.271338L7.10145 0.156176C6.84622 0.0928697 6.40746 0.0337202 6.12643 0.0247451Z" fill="#009CF8" />
@@ -430,7 +429,7 @@
                 </a>
             </div>
 
-            <div class="w-1/2 md:w-2/12 px-1 md:px-2">
+            <div class="w-1/2 md:w-5/12 lg:w-2/12 px-1 md:px-2">
                 <a href="tel:<?= $phone_number ?>" class="bg-white text-primary w-full h-[50px] md:h-[70px] flex justify-center items-center rounded-md text-base md:text-2xl font-bold gap-x-2">
                     Get A Quote
                 </a>
@@ -438,11 +437,11 @@
         </div>
 
         <div class="flex flex-wrap mt-16 shadow-lg">
-            <div class="w-1/2 hidden md:block">
+            <div class="w-full lg:w-1/2 hidden md:block">
                 <?= renderImg('form.jpg', 'lib', 'h-full w-full object-cover') ?>
             </div>
 
-            <div class="w-full md:w-1/2 bg-white">
+            <div class="w-full lg:w-1/2 bg-white">
                 <div class="py-10 px-3 md:p-10">
                     <p class="font-coolvetica font-bold text-5xl md:text-7xl text-center">Book Now & Save</p>
                     <p class="font-coolvetica font-bold text-base md:text-2xl text-center py-4">Simply fill in the form below &amp; we'll get back to you ASAP</p>

@@ -11,11 +11,21 @@ document.querySelectorAll('a[href="#form"]').forEach(function (anchor) {
 });
 
 $(() => {
-    $('.rating-slider').slick({
+    $(".rating-slider").slick({
         slidesToShow: 5,
         slidesToScroll: 1,
         arrows: false,
         responsive: [
+            {
+                breakpoint: 900,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    centerMode: true,
+                    autoplay: true,
+                    centerPadding: "50px"
+                }
+            },
             {
                 breakpoint: 540,
                 settings: {
@@ -29,11 +39,21 @@ $(() => {
         ]
     });
     
-    $('.about-slider').slick({
+    $(".about-slider").slick({
         slidesToShow: 3,
         slidesToScroll: 1,
         arrows: false,
         responsive: [
+            {
+                breakpoint: 900,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerMode: true,
+                    centerPadding: "150px",
+                    autoplay: true,
+                }
+            },
             {
                 breakpoint: 540,
                 settings: {
@@ -46,11 +66,21 @@ $(() => {
         ]
     });
     
-    $('.what-we-do-slider').slick({
+    $(".what-we-do-slider").slick({
         slidesToShow: 3,
         slidesToScroll: 1,
         arrows: false,
         responsive: [
+            {
+                breakpoint: 900,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    centerMode: true,
+                    centerPadding: "20px"
+                }
+            },
             {
                 breakpoint: 540,
                 settings: {
@@ -64,11 +94,21 @@ $(() => {
         ]
     });
     
-    $('.why-us-slider').slick({
+    $(".why-us-slider").slick({
         slidesToShow: 3,
         slidesToScroll: 1,
         arrows: false,
         responsive: [
+            {
+                breakpoint: 900,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    centerMode: true,
+                    centerPadding: "100px"
+                }
+            },
             {
                 breakpoint: 540,
                 settings: {
@@ -82,7 +122,7 @@ $(() => {
         ]
     });
     
-    $('.testimonials-slider').slick({
+    $(".testimonials-slider").slick({
         slidesToShow: 2,
         slidesToScroll: 1,
         arrows: false,
@@ -90,6 +130,16 @@ $(() => {
         centerPadding: "400px",
         autoplay: true,
         responsive: [
+            {
+                breakpoint: 900,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    centerMode: true,
+                    centerPadding: "100px"
+                }
+            },
             {
                 breakpoint: 540,
                 settings: {

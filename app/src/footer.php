@@ -1,7 +1,7 @@
 <footer class="bg-[#171717] py-5">
 	<div class="container">
 		<div class="flex flex-wrap items-center justify-center md:justify-between gap-y-5">
-			<div class="w-full md:w-1/2">
+			<div class="w-full md:w-9/12 lg:w-1/2">
 				<p class="text-sm font-medium text-white text-center md:text-start">Copyright <?= date('Y') ?> <span class="px-3 md:px-5">|</span> <?= $site ?> <span class="px-3 md:px-5">|</span> All Rights Reserved</p>
 			</div>
 
