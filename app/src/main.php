@@ -451,7 +451,7 @@
                     <form action="./src/form" method="POST" class="flex flex-wrap gap-y-3 mt-4">
                         <input type="hidden" name="token" id="recaptchaResponse2" class="recaptchaResponse" />
                         <input type="hidden" name="formType" value="book_now_form" />
-                        
+
                         <div class="w-full">
                             <input type="text" class="form-control" placeholder="Full Name" name="name" required />
                         </div>
@@ -467,10 +467,14 @@
                         <div class="w-full">
                             <select name="service" class="form-control">
                                 <option selected disabled>Service Required</option>
-                                <option></option>
-                                <option></option>
-                                <option></option>
-                                <option></option>
+                                <option>Gutter Cleaning</option>
+                                <option>Gutter Replacement</option>
+                                <option>Leak Guard Installation</option>
+                                <option>Gutter Repairs</option>
+                                <option>Downpipe Repairs</option>
+                                <option>Ground Drains Cleared</option>
+                                <option>Drain Pipe Unblocking</option>
+                                <option>Path And Driveway Pressure Cleaning</option>
                             </select>
                         </div>
 
