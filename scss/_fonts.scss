@@ -1,0 +1,29 @@
+@import url("https://use.typekit.net/enf0iwy.css");
+
+$asset-path: "../fonts/";
+
+/* Fonts includer */
+@mixin font-face($font-family, $font-file, $weight: "normal", $style: "normal") {
+    @font-face {
+        font-family: $font-family;
+        src: local($font-file), url($asset-path + $font-file + ".woff") format("woff"),
+            url($asset-path + $font-file + ".woff2") format("woff2");
+        font-weight: $weight;
+        font-style: $style;
+    }
+}
+
+/* Fonts includer */
+@include font-face("Proxima Nova", "Proxima Nova Thin", 400);
+@include font-face("Proxima Nova", "Proxima Nova Alt Regular", 500);
+@include font-face("Proxima Nova", "Proxima Nova Semibold", 700);
+@include font-face("Proxima Nova", "Proxima Nova Alt Bold", 800);
+@include font-face("Proxima Nova", "Proxima Nova Alt Black", 900);
+
+@include font-face("Coolvetica", "CoolveticaUl-Regular", 300);
+@include font-face("Coolvetica", "CoolveticaEl-Regular", 400);
+@include font-face("Coolvetica", "CoolveticaLt-Regular", 500);
+@include font-face("Coolvetica", "CoolveticaBk-Regular", 600);
+@include font-face("Coolvetica", "CoolveticaRg-Regular", 700);
+@include font-face("Coolvetica", "CoolveticaRg-Bold", 800);
+@include font-face("Coolvetica", "CoolveticaHv-Regular", 900);
