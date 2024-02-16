@@ -45,6 +45,16 @@ $(() => {
         arrows: false,
         responsive: [
             {
+                breakpoint: 1100,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    centerMode: true,
+                    centerPadding: "25px",
+                    autoplay: true,
+                }
+            },
+            {
                 breakpoint: 900,
                 settings: {
                     slidesToShow: 1,
@@ -100,6 +110,16 @@ $(() => {
         arrows: false,
         responsive: [
             {
+                breakpoint: 1100,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    centerMode: true,
+                    centerPadding: "20px"
+                }
+            },
+            {
                 breakpoint: 900,
                 settings: {
                     slidesToShow: 1,
@@ -130,6 +150,16 @@ $(() => {
         centerPadding: "400px",
         autoplay: true,
         responsive: [
+            {
+                breakpoint: 1100,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    centerMode: true,
+                    centerPadding: "20px"
+                }
+            },
             {
                 breakpoint: 900,
                 settings: {
