@@ -1,15 +1,16 @@
-<header class="py-5 bg-primary fixed w-full top-0 z-50">
+<header class="py-5 bg-primary md:fixed w-full top-0 z-50">
     <div class="container relative">
-        <div class="flex flex-wrap justify-end items-center gap-x-20">
-            <div class="w-fit">
+        <div class="flex flex-wrap justify-center md:justify-end items-center gap-x-20">
+            <div class="w-fit order-3 md:order-1 text-center hidden md:block">
                 <a href="./" class="absolute top-0 left-0"><?= renderImg('logo.png', 'logo') ?></a>
             </div>
-            <div class="w-fit">
+
+            <div class="w-fit hidden md:block order-2">
                 <p class="text-white text-xl"><span class="font-bold">Highly Qualified Sydney</span> Service Provides</p>
             </div>
 
-            <div class="w-fit">
-                <a href="<?= $phone_number ?>" class="text-white font-coolvetica text-5xl font-bold flex items-center gap-x-4 leading-none">
+            <div class="w-full md:w-fit order-1 md:order-3 text-center">
+                <a href="<?= $phone_number ?>" class="text-white font-coolvetica text-4xl md:text-5xl font-bold flex justify-center items-center gap-x-4 leading-none">
                     <svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_4_525)">
                             <path d="M25.6566 21.3534L20.3924 19.0149C19.8454 18.7703 19.2328 18.7136 18.6503 18.8538C18.0678 18.9941 17.548 19.3232 17.1723 19.7899L15.6552 21.6867C13.168 20.0907 11.0508 17.9814 9.44551 15.5003L11.3423 13.9832C11.8086 13.6075 12.1374 13.0882 12.2776 12.506C12.4178 11.9239 12.3615 11.3117 12.1173 10.765L9.79619 5.48726C9.53537 4.89958 9.07426 4.42365 8.49512 4.14437C7.91598 3.86509 7.25646 3.80062 6.63419 3.96245L2.17794 5.12495C1.53144 5.29223 0.969371 5.69211 0.59936 6.24802C0.229349 6.80393 0.0774072 7.47679 0.172632 8.13776C1.00274 13.9014 3.67729 19.2411 7.79589 23.3576C11.9145 27.4741 17.2556 30.146 23.0196 30.9731C23.6802 31.0667 24.3521 30.9134 24.9068 30.5428C25.4616 30.1721 25.8602 29.61 26.0266 28.9639L27.1891 24.5077C27.3508 23.8856 27.2853 23.2262 27.0044 22.648C26.7235 22.0699 26.2456 21.6108 25.6566 21.3534Z" fill="white" />
@@ -23,16 +24,20 @@
                     </svg>
                     <?= $phone_number ?>
                 </a>
-                <p class="text-xl text-white font-extrabold text-center">We are available 24/7 Call us now</p>
+                <p class="text-base md:text-xl text-white font-extrabold text-center">We are available 24/7 Call us now</p>
             </div>
+
         </div>
     </div>
 </header>
+<div class="w-full flex justify-center md:hidden">
+    <a href="./" class=""><?= renderImg('logo.png', 'logo') ?></a>
+</div>
 
 <section class="banner relative">
     <?= renderImg('banner.png', 'lib', 'absolute right-0 top-0 z-0 hidden md:block') ?>
 
-    <div class="container relative pt-60">
+    <div class="container relative pt-5 md:pt-60">
         <div class="w-full md:w-7/12 bg-white pt-7 pb-5">
             <p class="text-5xl md:text-8xl text-dark text-center md:text-start font-bold leading-none md:leading-[4.5rem] capitalize"><span class="text-primary font-bold">Premier Choice</span> For Top-Notch Roof And Gutter Services</p>
         </div>
