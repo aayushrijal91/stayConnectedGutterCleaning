@@ -2,9 +2,12 @@
 	<div class="container">
 		<div class="flex flex-wrap items-center justify-center md:justify-between gap-y-5">
 			<div class="w-full md:w-9/12">
-				<p class="text-sm font-medium text-white text-center md:text-start">Copyright <?= date('Y') ?> <span class="px-3 md:px-5">|</span> <?= $site ?> <span class="px-3 md:px-5">|</span> All Rights Reserved</p>
+				<p class="text-sm font-medium text-white text-center md:text-start"><?= date('Y') ?> <?= $site ?><span class="px-3 md:px-5">|</span> LIC # 370656C / ACN # 31649866642</p>
+				<p class="text-sm font-medium text-white text-center md:text-start">ABN 31649866642 Stay Connected Plumbing Pty Ltd Trading as Stay Connected Hot Water</p>
 			</div>
-
+			<div class="w-fit">
+				<a href="https://localhotwaterrepairs.com.au/dist/assets/uploads/scp-website-terms.pdf" target="_blank" class="text-sm font-medium text-white text-center md:text-start underline">Terms & Conditions</a>
+			</div>
 			<div class="w-fit">
 				<a href="https://www.aiims.com.au/this-is-us"><?= renderImg('aiims.png', 'logo') ?></a>
 			</div>

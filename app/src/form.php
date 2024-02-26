@@ -148,9 +148,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token']) && $_POST['f
             '</tr>' .
             '</tbody></table></body></html>';
 
-        _phpmailer($to, $site, $subject, $message, $no_reply_email, $cc_email, $bcc_email);
+        $result = _phpmailer($to, $site, $subject, $message, $no_reply_email, $cc_email, $bcc_email);
 
-        header('location:./../thankyou.php');
+        if ($result) {
+            header('location:./../thankyou');
+        } else {
+            throw new Exception('Failed, please submit form again or call us directly.');
+        }
     } catch (Exception $e) {
         echo '<script language="javascript">alert("' . $e->getMessage() . '")</script>';
         echo '<script language="javascript">history.go(-1);</script>';
@@ -168,8 +172,8 @@ function _phpmailer($to_email, $site, $subject, $message, $no_reply_email, $cc, 
         $mail->SMTPAuth = TRUE;
         $mail->SMTPSecure = "ssl";
         $mail->Port     = 465;
-        $mail->Username = "aayush.rijal99@gmail.com";
-        $mail->Password = "koqg rtwa oxqi vjon";
+        // $mail->Username = "aayush.rijal99@gmail.com";
+        // $mail->Password = "koqg rtwa oxqi vjon";
         $mail->Host     = "smtp.gmail.com";
         $mail->Mailer   = "smtp";
         $mail->SetFrom($no_reply_email, $site);
@@ -184,7 +188,9 @@ function _phpmailer($to_email, $site, $subject, $message, $no_reply_email, $cc, 
         $mail->WordWrap   = 80;
         $mail->MsgHTML($message);
         $mail->IsHTML(true);
-        $mail->send();
+        $res = $mail->send();
+
+        return $res;
     } catch (Exception $e) {
         echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
     }
